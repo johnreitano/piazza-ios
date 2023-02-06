@@ -1,0 +1,12 @@
+"tab.home" = "Home";
+"tab.savedAds" = "Saved Ads";
+"tab.messages" = "Messages";
+"tab.myAds" = "My Ads";
+"tab.profile" = "Profile";
+
+"error.title" = "Whoops, Something went wrong!";
+"error.ok" = "Ok";
+
+"confirm.title" = "Are you sure?";
+"confirm.ok" = "Ok";
+"confirm.cancel" = "Cancel";

@@ -1,0 +1,29 @@
+{
+  "rules": [
+    {
+      "patterns": [
+        "/login",
+        "/sign_up",
+        "/users/password_resets/",
+        "/new$",
+        "/edit$",
+        "/contact$"
+      ],
+      "properties": {
+        "presentation": "modal"
+      }
+    },
+    {
+      "patterns": [
+        "/$",
+        "/saved_listings$",
+        "/conversations$",
+        "/my_listings$",
+        "/profile$"
+      ],
+      "properties": {
+        "presentation": "replace"
+      }
+    }
+  ]
+}

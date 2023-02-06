@@ -15,6 +15,21 @@
 		4873F4C329873D830017C9CB /* PiazzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4873F4C229873D830017C9CB /* PiazzaUITests.swift */; };
 		4873F4C529873D830017C9CB /* PiazzaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4873F4C429873D830017C9CB /* PiazzaUITestsLaunchTests.swift */; };
 		4873F4D629873E920017C9CB /* Turbo in Frameworks */ = {isa = PBXBuildFile; productRef = 4873F4D529873E920017C9CB /* Turbo */; };
+		4873F4DB298746EA0017C9CB /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4873F4DA298746EA0017C9CB /* RootViewController.swift */; };
+		4873F4DE29874A480017C9CB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4873F4E029874A480017C9CB /* Localizable.strings */; };
+		4873F4E629874BB40017C9CB /* RoutingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4873F4E529874BB40017C9CB /* RoutingController.swift */; };
+		4873F4E829874C2F0017C9CB /* path_configuration.json in Resources */ = {isa = PBXBuildFile; fileRef = 4873F4E729874C2F0017C9CB /* path_configuration.json */; };
+		4873F4EA29874C6E0017C9CB /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4873F4E929874C6E0017C9CB /* Global.swift */; };
+		4873F4EC298756FA0017C9CB /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4873F4EB298756FA0017C9CB /* WebViewController.swift */; };
+		4873F4EE298758670017C9CB /* ViewControllorVendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4873F4ED298758670017C9CB /* ViewControllorVendor.swift */; };
+		4873F4F0298782540017C9CB /* PathDirectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4873F4EF298782540017C9CB /* PathDirectable.swift */; };
+		48FD24E729905A5E00874F4D /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FD24E629905A5E00874F4D /* Api.swift */; };
+		48FD24E929905A6A00874F4D /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FD24E829905A6A00874F4D /* BaseNavigationController.swift */; };
+		48FD24EB2990BBA900874F4D /* bridge.js in Resources */ = {isa = PBXBuildFile; fileRef = 48FD24EA2990BBA900874F4D /* bridge.js */; };
+		48FD24ED2990BC0800874F4D /* WebBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FD24EC2990BC0800874F4D /* WebBridge.swift */; };
+		48FD24F12990BD8600874F4D /* WebBridgeMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FD24F02990BD8600874F4D /* WebBridgeMessageHandler.swift */; };
+		48FD24F32990BDB900874F4D /* WebBridgeMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FD24F22990BDB900874F4D /* WebBridgeMessage.swift */; };
+		48FD24F52990C27700874F4D /* WebBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FD24F42990C27700874F4D /* WebBarButtonItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +61,21 @@
 		4873F4BE29873D830017C9CB /* PiazzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiazzaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4873F4C229873D830017C9CB /* PiazzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiazzaUITests.swift; sourceTree = "<group>"; };
 		4873F4C429873D830017C9CB /* PiazzaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiazzaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4873F4DA298746EA0017C9CB /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		4873F4DF29874A480017C9CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4873F4E529874BB40017C9CB /* RoutingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingController.swift; sourceTree = "<group>"; };
+		4873F4E729874C2F0017C9CB /* path_configuration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = path_configuration.json; sourceTree = "<group>"; };
+		4873F4E929874C6E0017C9CB /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		4873F4EB298756FA0017C9CB /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		4873F4ED298758670017C9CB /* ViewControllorVendor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllorVendor.swift; sourceTree = "<group>"; };
+		4873F4EF298782540017C9CB /* PathDirectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathDirectable.swift; sourceTree = "<group>"; };
+		48FD24E629905A5E00874F4D /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		48FD24E829905A6A00874F4D /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		48FD24EA2990BBA900874F4D /* bridge.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = bridge.js; sourceTree = "<group>"; };
+		48FD24EC2990BC0800874F4D /* WebBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBridge.swift; sourceTree = "<group>"; };
+		48FD24F02990BD8600874F4D /* WebBridgeMessageHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBridgeMessageHandler.swift; sourceTree = "<group>"; };
+		48FD24F22990BDB900874F4D /* WebBridgeMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBridgeMessage.swift; sourceTree = "<group>"; };
+		48FD24F42990C27700874F4D /* WebBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBarButtonItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +127,23 @@
 		4873F4A029873D820017C9CB /* Piazza */ = {
 			isa = PBXGroup;
 			children = (
+				48FD24EC2990BC0800874F4D /* WebBridge.swift */,
+				48FD24E629905A5E00874F4D /* Api.swift */,
 				4873F4A129873D820017C9CB /* AppDelegate.swift */,
+				48FD24E829905A6A00874F4D /* BaseNavigationController.swift */,
+				4873F4DA298746EA0017C9CB /* RootViewController.swift */,
+				48FD24EA2990BBA900874F4D /* bridge.js */,
+				4873F4E529874BB40017C9CB /* RoutingController.swift */,
+				48FD24F22990BDB900874F4D /* WebBridgeMessage.swift */,
+				48FD24F02990BD8600874F4D /* WebBridgeMessageHandler.swift */,
+				48FD24F42990C27700874F4D /* WebBarButtonItem.swift */,
+				4873F4EB298756FA0017C9CB /* WebViewController.swift */,
+				4873F4ED298758670017C9CB /* ViewControllorVendor.swift */,
+				4873F4E929874C6E0017C9CB /* Global.swift */,
+				4873F4E729874C2F0017C9CB /* path_configuration.json */,
 				4873F4A329873D820017C9CB /* SceneDelegate.swift */,
+				4873F4E029874A480017C9CB /* Localizable.strings */,
+				4873F4EF298782540017C9CB /* PathDirectable.swift */,
 				4873F4AA29873D830017C9CB /* Assets.xcassets */,
 				4873F4AC29873D830017C9CB /* LaunchScreen.storyboard */,
 				4873F4AF29873D830017C9CB /* Info.plist */,
@@ -133,7 +178,7 @@
 				4873F49A29873D820017C9CB /* Sources */,
 				4873F49B29873D820017C9CB /* Frameworks */,
 				4873F49C29873D820017C9CB /* Resources */,
-				4873F4D7298740FD0017C9CB /* ShellScript */,
+				4873F4D7298740FD0017C9CB /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -235,7 +280,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4873F4AE29873D830017C9CB /* LaunchScreen.storyboard in Resources */,
+				4873F4DE29874A480017C9CB /* Localizable.strings in Resources */,
+				48FD24EB2990BBA900874F4D /* bridge.js in Resources */,
 				4873F4AB29873D830017C9CB /* Assets.xcassets in Resources */,
+				4873F4E829874C2F0017C9CB /* path_configuration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +304,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4873F4D7298740FD0017C9CB /* ShellScript */ = {
+		4873F4D7298740FD0017C9CB /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -266,6 +314,7 @@
 			);
 			inputPaths = (
 			);
+			name = "Run Script";
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -281,8 +330,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48FD24E729905A5E00874F4D /* Api.swift in Sources */,
 				4873F4A229873D820017C9CB /* AppDelegate.swift in Sources */,
+				4873F4EE298758670017C9CB /* ViewControllorVendor.swift in Sources */,
+				4873F4E629874BB40017C9CB /* RoutingController.swift in Sources */,
+				4873F4DB298746EA0017C9CB /* RootViewController.swift in Sources */,
+				4873F4F0298782540017C9CB /* PathDirectable.swift in Sources */,
+				48FD24F12990BD8600874F4D /* WebBridgeMessageHandler.swift in Sources */,
 				4873F4A429873D820017C9CB /* SceneDelegate.swift in Sources */,
+				4873F4EA29874C6E0017C9CB /* Global.swift in Sources */,
+				48FD24ED2990BC0800874F4D /* WebBridge.swift in Sources */,
+				48FD24F32990BDB900874F4D /* WebBridgeMessage.swift in Sources */,
+				48FD24E929905A6A00874F4D /* BaseNavigationController.swift in Sources */,
+				4873F4EC298756FA0017C9CB /* WebViewController.swift in Sources */,
+				48FD24F52990C27700874F4D /* WebBarButtonItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +386,14 @@
 				4873F4AD29873D830017C9CB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4873F4E029874A480017C9CB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4873F4DF29874A480017C9CB /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
