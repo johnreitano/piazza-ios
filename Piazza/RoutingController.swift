@@ -48,13 +48,25 @@ class RoutingController: BaseNavigationController, PathDirectable, WebBridgeMess
 }
 
 extension RoutingController: SessionDelegate {
-    func session(_ session: Session,
-                 didProposeVisit proposal: VisitProposal) {
+    func session(_ session: Session, didProposeVisit proposal: VisitProposal) {
         if proposal.isPathDirective {
             executePathDirective(proposal)
+        } else if let tabIndex = RootViewController.tabIndexForURL(proposal.url) {
+            let rootViewController =
+            self.tabBarController as? RootViewController
+            
+            if let presentedVC = presentedViewController {
+                presentedVC.dismiss(animated: true, completion: {
+                    rootViewController?.switchToTab(tabIndex)
+                })
+            } else {
+                rootViewController?.switchToTab(tabIndex)
+            }
+            
         } else {
             visit(proposal)
         }
+        
     }
     
     func session(_ session: Session,

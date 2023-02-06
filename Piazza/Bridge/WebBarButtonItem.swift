@@ -21,6 +21,8 @@ class WebBarButtonItem: UIBarButtonItem {
         
         self.title = data["title"]
         self.style = .plain
+        self.target = nil
+        self.action = #selector(RoutingController.bridgeElementTapped)
     }
     
     required init?(coder: NSCoder) {

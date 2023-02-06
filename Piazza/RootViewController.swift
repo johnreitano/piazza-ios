@@ -33,6 +33,11 @@ class RootViewController: UITabBarController {
         self.viewControllers = viewControllers
     }
     
+    func switchToTab(_ tabIndex: Int) {
+        selectedIndex = tabIndex
+        (selectedViewController as? RoutingController)?.refreshWebView()
+    }
+    
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -46,6 +51,10 @@ extension RootViewController {
         Tab(url: Api.Path.myAds, icon: "rectangle.stack.badge.person.crop.fill", titleKey: "tab.myAds"),
         Tab(url: Api.Path.profile, icon: "person.fill", titleKey: "tab.profile")
     ]
+    
+    static func tabIndexForURL(_ url: URL) -> Int? {
+        return tabs.firstIndex { $0.url == url }
+    }
     
     struct Tab {
         let url: URL

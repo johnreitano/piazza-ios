@@ -127,16 +127,12 @@
 		4873F4A029873D820017C9CB /* Piazza */ = {
 			isa = PBXGroup;
 			children = (
-				48FD24EC2990BC0800874F4D /* WebBridge.swift */,
+				48FD24F829918FB800874F4D /* Bridge */,
 				48FD24E629905A5E00874F4D /* Api.swift */,
 				4873F4A129873D820017C9CB /* AppDelegate.swift */,
 				48FD24E829905A6A00874F4D /* BaseNavigationController.swift */,
 				4873F4DA298746EA0017C9CB /* RootViewController.swift */,
-				48FD24EA2990BBA900874F4D /* bridge.js */,
 				4873F4E529874BB40017C9CB /* RoutingController.swift */,
-				48FD24F22990BDB900874F4D /* WebBridgeMessage.swift */,
-				48FD24F02990BD8600874F4D /* WebBridgeMessageHandler.swift */,
-				48FD24F42990C27700874F4D /* WebBarButtonItem.swift */,
 				4873F4EB298756FA0017C9CB /* WebViewController.swift */,
 				4873F4ED298758670017C9CB /* ViewControllorVendor.swift */,
 				4873F4E929874C6E0017C9CB /* Global.swift */,
@@ -166,6 +162,18 @@
 				4873F4C429873D830017C9CB /* PiazzaUITestsLaunchTests.swift */,
 			);
 			path = PiazzaUITests;
+			sourceTree = "<group>";
+		};
+		48FD24F829918FB800874F4D /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				48FD24EC2990BC0800874F4D /* WebBridge.swift */,
+				48FD24EA2990BBA900874F4D /* bridge.js */,
+				48FD24F22990BDB900874F4D /* WebBridgeMessage.swift */,
+				48FD24F02990BD8600874F4D /* WebBridgeMessageHandler.swift */,
+				48FD24F42990C27700874F4D /* WebBarButtonItem.swift */,
+			);
+			path = Bridge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
